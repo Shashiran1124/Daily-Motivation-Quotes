@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorpage4"
+    android:orientation="vertical"
+    tools:context=".page5" >
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="344dp"
+        android:layout_height="119dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/whatMotivatesYou"
+        android:textColor="#FFFFFF"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#000000"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/achieving"
+        android:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/stringRelationships"
+        android:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/metalWellBeing"
+        android:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/physicalHealth"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="289dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#FF6E40"
+        android:text="@string/next"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
